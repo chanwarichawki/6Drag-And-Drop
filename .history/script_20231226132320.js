@@ -50,8 +50,8 @@ function updateSavedColumns() {
   //localStorage.setItem('onHoldItems', JSON.stringify(onHoldListArray));
   listArrays = [backlogListArray, progressListArray, completeListArray, onHoldListArray]
   const arrayNames = ['backlog', 'progress', 'complete', 'onHold'];
-  arrayNames.forEach((arrayName, index) => {
-    localStorage.setItem(`${arrayName}Items`, JSON.stringify(listArrays[index]))
+  arrayNames.forEach((arrayName) => {
+
   })
 }
 
