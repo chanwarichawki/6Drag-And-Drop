@@ -37,8 +37,8 @@ function getSavedColumns() {
   }
 }
 
-//getSavedColumns();
-//updateSavedColumns();
+getSavedColumns();
+updateSavedColumns();
 
 
 

@@ -14,7 +14,7 @@ let updatedOnLoad = false;
 
 // Initialize Arrays
 let backlogListArray = [];
-let progressListArray = [];
+let progressListArray = [gg];
 let completeListArray = [];
 let onHoldListArray = [];
 let listArrays = [];

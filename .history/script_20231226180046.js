@@ -13,7 +13,7 @@ const onHoldList = document.getElementById('on-hold-list');
 let updatedOnLoad = false;
 
 // Initialize Arrays
-let backlogListArray = [];
+let backlogListArray = [salam];
 let progressListArray = [];
 let completeListArray = [];
 let onHoldListArray = [];

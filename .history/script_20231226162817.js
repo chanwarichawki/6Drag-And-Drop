@@ -68,7 +68,7 @@ function createItemEl(columnEl, column, item, index) {
   listEl.classList.add('drag-item');
   listEl.textContent = item;
   //append
-  columnEl.appendChild(listEl)
+  columnEl.appendChild(lis)
 }
 
 // Update Columns in DOM - Reset HTML, Filter Array, Update localStorage

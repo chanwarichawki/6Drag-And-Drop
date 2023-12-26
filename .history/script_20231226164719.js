@@ -93,7 +93,7 @@ function updateDOM() {
       createItemEl(completeList, 0, completeItems, index);
   })
   // On Hold Column
-     onHoldList.textContent = '';
+     onHoldList.textContent ='';
      onHoldListArray.forEach((onHoldItems, index) => {
       createItemEl(onHoldList, 0, onHoldItems, index);
     })

@@ -99,8 +99,8 @@ function updateDOM() {
     })
   // Run getSavedColumns only once, Update Local Storage
 
-}
+
 
 // on load
 updateDOM();
-
+  }

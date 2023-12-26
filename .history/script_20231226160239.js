@@ -57,50 +57,30 @@ function updateSavedColumns() {
 
 // Create DOM Elements for each list item
 function createItemEl(columnEl, column, item, index) {
-
-  //console.log('columnEl:', columnEl);
-  //console.log('column:', column);
-  //console.log('item:', item);
-  //console.log('index:', index);
-
+  console.log('columnEl:', columnEl);
+  console.log('column:', column);
+  console.log('item:', item);
+  console.log('index:', index);
   // List Item
   const listEl = document.createElement('li');
   listEl.classList.add('drag-item');
-  listEl.textContent = item;
-  //append
-  columnEl.appendChild(listEl)
+
 }
 
 // Update Columns in DOM - Reset HTML, Filter Array, Update localStorage
 function updateDOM() {
   // Check localStorage once
-   if (!updatedOnLoad) {
-    getSavedColumns();
-   }
+   if (!updatedOnLoad) 
   // Backlog Column
-    backlogList.textContent = '';
-    backlogListArray.forEach((backlogItems, index) => {
-      createItemEl(backlogList, 0, backlogItems, index);
-    })
+
   // Progress Column
-    progressList.textContent = '';
-    progressListArray.forEach((progressItems, index) => {
-      createItemEl(progressList, 0, progressItems, index);
-    })
+
   // Complete Column
-    completeList.textContent = '';
-    completeListArray.forEach((completeItems, index) => {
-      createItemEl(completeList, 0, completeItems, index);
-  })
+
   // On Hold Column
-     onHoldList.textContent = '';
-     onHoldListArray.forEach((onHoldItems, index) => {
-      createItemEl(onHoldList, 0, onHoldItems, index);
-    })
+
   // Run getSavedColumns only once, Update Local Storage
 
-}
 
-// on load
-updateDOM();
+}
 

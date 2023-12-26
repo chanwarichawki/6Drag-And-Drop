@@ -44,7 +44,7 @@ function getSavedColumns() {
 
 // Set localStorage Arrays
 function updateSavedColumns() {
-  //localStorage.setItem('backlogItems', JSON.stringify(backlogListArray));
+  /localStorage.setItem('backlogItems', JSON.stringify(backlogListArray));
   //localStorage.setItem('progressItems', JSON.stringify(progressListArray));
   //localStorage.setItem('completeItems', JSON.stringify(completeListArray));
   //localStorage.setItem('onHoldItems', JSON.stringify(onHoldListArray));
